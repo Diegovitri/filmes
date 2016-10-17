@@ -1,0 +1,9 @@
+1º Para comitar um projeto no linux, entra na pasta do projeto pelo terminar e da um "git init" para iniciar o projeto
+2º "git status" para ver quais arquivos que não foram comitados
+3º "git add ." para adicionar todos os arquivos do projeto para commitar
+4º "git commit -m "Primeiro commit do projeto"" para comitar os arquivos adicionados
+5º Após os comandos acima seu projeto ja esta no repositorio local de sua máquina
+para subir para o repositorio do git, basta criar seu repositorio no https://github.com
+6º com o diretorio criado dê um:
+"git remote add origin https://github.com/Diegovitri/filmes.git" para vincular o reposirio local ao remoto
+"git push -u origin master"  para subir os arquivos local para o remoto
